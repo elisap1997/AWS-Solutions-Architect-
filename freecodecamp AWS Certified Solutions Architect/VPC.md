@@ -71,3 +71,23 @@ does two things:
 2. perform network address translation (NAT) for instances that ahve been assigned public ipv4 addresses
 
 to route out to internet need to add in route tables need to add a route to the internet gatewa and set destination to default everywhere ip
+
+## bastion / jumpbox
+
+bastions- ec2 instances that are security hardened, help gain access to ec2 instances via ssh or rcp that are in private subnet
+
+also known as jumpboxes 
+
+nats cannot be used as bastions bc tehy are only intended for ec2 instances to gain outbound access to itnernet for things such as security updates
+
+systems manager's sessions manager replaces the need for bastions
+
+## direct connect
+
+establishes dedicated netowrk connections from on-premises locations to aws
+
+very fast lowerbandwith 50m-500m or higher bandwith 1gb or 10gb
+
+reduces network costs and increase badnwith throughput, great for high traffic networks, provides more consistent network experience than typical internet-based connection
+
+

@@ -66,3 +66,8 @@ can be turned on per user, but user has to turn it on bc admin cannot directly e
 
 ## Follow Along
 
+go to dashboard
+
+take what security status says into account
+
+have to set up mfa with compatible devices

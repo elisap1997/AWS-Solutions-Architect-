@@ -57,5 +57,8 @@ cloud9 need python
 
 ## Follow Along - CLI
 
+-install credentials
+
 ## Follow Along - SDK
 
+- basically make a project via sdk
